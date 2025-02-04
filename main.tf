@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 # -------------------------
-# Step 1: Create EC2 Instances
+# Step 1: Create EC2 Instance
 # -------------------------
 
 resource "aws_instance" "web_server_1" {
